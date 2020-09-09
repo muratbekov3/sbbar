@@ -1,0 +1,263 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Thin.ttf);
+
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family:Montserrat ;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+ img{
+   margin-left: 700px;
+   margin-top: 40px;
+}
+.content{
+    background-image: url(../img/wine_PNG9480\ 1.png);
+    background-color: black;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position-y: 330px;
+}
+.in{
+    display: flex;
+    width: 500px;
+    margin:auto;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.in a{
+    color:#AAA8A8;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.in a:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+.registr{
+    margin:100px auto;
+    width: 600px;
+}
+.registr input {
+    width: 600px;
+   height: 50px;
+   background: none; 
+box-sizing: border-box;
+color:#ffffff;
+font-size:18px;
+font-style: normal;
+}
+.registr input::placeholder{
+    color: #ffffff;
+}
+.registr label{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 17px;
+}
+.form{
+    margin-top: 50px;
+}
+.forgot{
+    display: flex;
+    width: 600px;
+    margin:-40px auto;
+    justify-content: space-between;
+}
+.forgot input{
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+.form label{
+    color: #ffffff;
+    font-weight: normal;
+font-size: 16px;
+margin-left: 5px;
+}
+.forgot label{
+    color: #ffffff;
+    font-weight: normal;
+font-size: 16px;
+margin-left: 5px;
+}
+.forgot a{
+    color: #ffffff;
+    
+}
+.content button{
+    background: none;
+    color: #ffffff;
+    width: 177px;
+height: 60px;
+border: 1px solid #FFFFFF;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+position: relative;
+top: 120px;
+left: 650px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 480px;
+        height: 800px;
+    }
+    header{
+        width: 480px;
+    }
+
+    header img{
+        margin-left: 220px;
+    }
+
+    .form input{
+        width: 400px;
+    }
+    .form{
+        margin-top: 30px;
+    }
+    form{
+        width:400px;
+    }
+    .registr{
+        width: 400px;
+        margin-top: 10px;
+    }
+  
+    .forgot{
+        width: 400px;
+    }
+    .in{
+        width: 460px;
+    }
+    .in a{
+        font-size: 35px;
+    }
+    .content button{
+        margin-left: -500px;
+    }
+    .content{
+    background-image: none;
+    }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width :768px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 768px;
+        height: 800px;
+    }
+    header{
+        width: 768px;
+    }
+
+    header img{
+        margin-left: 340px;
+        width: 100px;
+    }
+
+    .form input{
+        width: 500px;
+        height: 60px;
+    }
+    .form{
+        margin-top: 30px;
+    }
+    form{
+        width:400px;
+    }
+    .registr{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+  
+    .forgot{
+        width: 400px;
+    }
+    .in{
+        width: 600px;
+    }
+    .in a{
+        font-size: 45px;
+    }
+    .content button{
+        margin-left: -400px;
+        width: 250px;
+    }
+    .content{
+    background-image: none;
+    }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width :1024px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 1024px;
+        height: 800px;
+    }
+    header{
+        width: 1024px;
+    }
+
+    header img{
+        margin-left: 450px;
+        width: 150px;
+    }
+
+    .form input{
+        width: 600px;
+        height: 60px;
+    }
+    .form{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    form{
+        width:400px;
+    }
+    .registr{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+  
+    .forgot{
+        width: 400px;
+    }
+    .in{
+        width: 600px;
+    }
+    .in a{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .content button{
+        margin-left: -250px;
+        width: 250px;
+    }
+    .content{
+    background-image: none;
+    }
+}

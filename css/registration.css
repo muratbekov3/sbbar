@@ -1,0 +1,235 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Thin.ttf);
+
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family:Montserrat ;
+}
+
+ img{
+   margin-left: 700px;
+   margin-top: 40px;
+}
+.content{
+    background-image: url(../img/olive_oil_PNG25\ 1.png);
+    background-color: black;
+    height: 1315px;
+    background-repeat: no-repeat;
+}
+.in{
+    display: flex;
+    width: 500px;
+    margin:auto;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.in a{
+    color:#AAA8A8;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.in a:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+.forgot form{
+    width: 1000px;
+}
+.forgot{
+    margin: auto;
+    width: 600px;
+}
+.forgot input{
+    width: 600px;
+    height: 50px;
+    background: none;
+    border-radius: 0;
+    color: #B5B5B5;
+    font-size: 18px;
+    font-style: normal;
+font-weight: normal;
+}
+.forgot label{
+    color: #ffffff;
+    font-weight: normal;
+font-size: 16px;
+margin-left: 5px;
+}
+.form-group{
+    margin-top: 50px;
+}
+.content  button {
+    background: none;
+    color: #ffffff;
+    width: 257px;
+height: 60px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+position: relative;
+top: 100px;
+left: 640px;
+}
+
+
+input::placeholder{
+    color: #ffffff;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 480px;
+        height: 1200px;
+    }
+    header{
+        width: 480px;
+    }
+
+    header img{
+        margin-left: 220px;
+    }
+    .form-group{
+        width: 200px;
+        margin-top: 30px;
+    }
+    .form-group label{
+        width: 300px;
+    }
+    form{
+        width: 100px !important;
+    }
+    .forgot{
+        width: 400px;
+    }
+
+  
+    .forgot input{
+        width: 400px;
+    }
+    .in{
+        width: 460px;
+    }
+    .in a{
+        font-size: 35px;
+    }
+    .content button{
+        margin-left: -520px;
+    }
+    .content{
+    background-image: none;
+    }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 768px;
+        height: 1200px;
+    }
+    header{
+        width: 768px;
+    }
+
+    header img{
+        margin-left: 350px;
+    }
+    .form-group{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    .form-group label{
+        width: 300px;
+    }
+    form{
+        width: 100px !important;
+    }
+    .forgot{
+        width: 400px;
+    }
+
+  
+    .forgot input{
+        width: 500px;
+        height: 60px;
+    }
+    .in{
+        width: 460px;
+    }
+    .in a{
+        font-size: 35px;
+    }
+    .content button{
+        margin-left: -390px;
+    }
+    .content{
+    background-image: none;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .content{
+        width: 1024px;
+        height: 1500px;
+    }
+    header{
+        width: 1024px;
+    }
+
+    header img{
+        margin-left: 450px;
+        width: 150px;
+    }
+    .form-group{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+    .form-group label{
+        width: 500px;
+        font-size: 25px;
+    }
+    form{
+        width: 100px !important;
+    }
+    .forgot{
+        width: 400px;
+    }
+
+  
+    .forgot input{
+        width: 600px;
+        height: 70px;
+    }
+    .in{
+        width: 700px;
+    }
+    .in a{
+        font-size: 50px;
+    }
+    .content button{
+        margin-left: -290px;
+        width: 350px;
+        font-size: 30px;
+    }
+    .content{
+    background-image: none;
+    }
+}

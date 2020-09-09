@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contacts.css">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <script type="text/javascript">
+      var mat;
+  
+      DG.then(function () {
+        mat = DG.map('map', {
+          center: [54.98, 82.89],
+          zoom: 13
+        });
+  
+        DG.marker([42.834484, 74.543923]).addTo(mat).bindPopup('SB bar');
+      });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="./menu.html">Меню</a></li>
+                <li><a href="./sale.html">Акции</a></li>
+                <li><a href="./index.html">О нас</a></li>
+               <a href="./index.html"><img src="img/Лого.png" alt=""></a>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
+            <div class="join">
+             <a href="./in.html"><img src="img/Vector.png" alt=""><p>Войти</p></a>
+             <a href="./korzina.html"><img src="img/Vector (1).png" style='width:23px; height: 26px;'  alt=""></a>
+            </div>
+        </div>
+
+
+        <div class="on">
+          <div class="header">
+            <div class="logo">
+              <div class="main">
+            <a href="./index.html"> <img src="img/Лого (1).png" alt=""></a>
+             </div>
+             <div class="kor">
+            <a href="./in.html"> <img src="img/Vector (5).png" alt=""></a>
+            <a href="./korzina.html"> <img src="img/Vector (1).png" alt=""></a>
+            </div>
+            </div>
+          </div>
+          <input id="burger" type="checkbox">
+    
+          <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+    
+          <nav>
+            <ul>
+              <li> <a href="./menu.html">Меню</a></li>
+              <li> <a href="./sale.html">Акции</a></li>
+              <li> <a href="./index.html">О нас</a></li>
+              <li> <a href="./contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+
+    </header>
+    <div class="content">
+
+
+  <div class="flex">
+
+    <div class="left">
+        <div>
+        <h1>Контакты</h1>
+       </div>
+        <div>
+        <h2>Режим работы</h2>
+        <p>c 10:00 до 20:00</p>
+        <p>Сб, Вс - выходной</p>
+       </div>
+       <div>
+           <h2>Телефон</h2>
+           <p>+996 (0553) 577-575</p>
+           <p>+996 (0553) 577-575</p>
+       </div>
+       <div>
+           <h2>Адрес</h2>
+           <p>г. Бишкек, Медерова, 50/2</p>
+       </div>
+       <div class="img">
+          <a href=""> <img src="img/bx_bxl-instagram.png" alt=""></a>
+          <a href=""> <img src="img/Vector (3).png" alt=""></a>
+            <a href=""> <img src="img/Vector (4).png" alt=""></a>
+       </div>
+    </div>
+
+    <div id="map" style="width: 858px; height: 486px;"></div>
+
+</div>
+
+<div class="backround">
+
+</div>
+
+
+<footer>
+    <div class="foot"><a href="./index.html"><img src="img/Лого (1).png" alt=""></a></div>
+    <div class="rejim">
+      <h3>Режим работы</h3>
+      <p>с 10:00 до 20:00</p>
+      <p>Сб, Вс - выходной</p>
+    </div>
+    <div class="tele">
+      <h3>Телефон</h3>
+      <p>+996 (0553) 577-575</p>
+      <p>+996 (0553) 577-575</p>
+    </div>
+    <div class="adr">
+      <h3>Адрес</h3>
+      <p>г. Бишкек, Медерова, 50/2</p>
+    </div>
+    <div class="vector">
+      
+      <a href=""><img src="img/bx_bxl-instagram.png" alt=""></a>
+            
+            
+              <a href=""><img src="img/Vector (3).png" alt=""></a>
+            
+            
+              <a href=""><img src="img/Vector (4).png" alt=""></a>
+    </div>
+  
+  </footer>
+
+
+       
+          
+    </div>
+   
+    
+</body>
+</html>

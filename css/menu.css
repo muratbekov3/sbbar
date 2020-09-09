@@ -1,0 +1,899 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Thin.ttf);
+
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family:Montserrat ;
+
+}
+header{
+background-color: black;
+height: 80px; 
+}
+header ul{
+display: flex;
+width: 800px;
+justify-content: space-around;
+list-style: none;
+margin-left: 210px;
+margin-top: 20px;
+}
+header ul li{
+margin-top: 10px;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+color:#ffffff;
+font-size: 18px;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+}
+.nav ul a:hover{
+border-bottom: 2px solid white;
+}
+.join a p:hover{
+border-bottom: 2px solid white;
+}
+.join{
+display: flex;
+justify-content: space-between;
+width: 250px;
+margin-left: 150px;
+margin-top: 30px;
+}
+.join img{
+margin-right:10px;
+}
+.join p{
+margin-left: 30px;
+margin-top: -27px;
+}
+.content{
+    background-color: black;
+    background-image: url(../img/Фоновые\ элементы\ \(1\).png);
+    height: 1850px;
+    
+}
+.menu{
+    padding-top: 100px;
+  }
+  .menu ul a{
+   color:#ffffff;
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.menu ul{
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul {
+  list-style-type:none;
+}
+.menu ul li a h1{
+    margin-top: -15px;
+    font-weight: bold;
+}
+.food{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;  
+    margin: auto;
+    margin-left: 200px;  
+    margin-top: 50px;
+}
+
+.foodImg{
+    margin: auto;
+}#carouselExampleControls{
+  background-color: black;
+  
+}
+.carousel-inner{
+  width: 1200px;
+  height: 700px;
+ margin-left: 155px;
+ padding-top: 50px;
+}
+
+.food h3{
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.food p{
+  color: #ffffff;
+  font-size: 14px;
+  width: 350px;
+}
+.som a{
+  text-decoration: none;
+  margin-right: 50px;
+  color: #ffffff;
+}
+.som  a button{
+  background: none;
+  color: #ffffff;
+  width: 110px;
+  height: 40px;
+  cursor: pointer;
+}
+.button button{
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    width: 276px;
+    height: 60px;
+    font-size: 20px;
+    position:relative;
+    top: 100px;
+    left: 640px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+  }
+  footer h3{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  footer p{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 40px;
+  }
+  .vector{
+    flex-wrap: wrap;
+    width: 40px;
+  }
+  
+  .vector img{
+    margin-top: 20px;
+  }
+  .vector a:nth-child(2n){
+    margin-left: 7px;
+  }
+  .vector a:last-child{
+  margin-left: 12px;
+  }
+  .on{
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    *{
+      margin: 0;
+      padding: 0;
+      font-family:Montserrat ;
+      }
+    
+
+   .nav{
+     display: none;
+   }
+  
+   .content{
+    width: 480px;
+    height: 4390px;
+  }
+  .menu{
+    overflow-x: auto;
+    margin-top: -50px;
+
+      }
+      .food{
+        flex-direction: column;
+        margin-top: px;
+        margin-left: 70px;
+        width: 400px;
+        margin-top: -30px;
+       }
+       .foodImg{
+         margin-top: 50px;
+       }
+
+       header{
+        width: 480px;
+        height: 100px;
+      }
+            header h1 > span{
+              text-transform: none;
+              opacity: .5;
+              font-weight: 300;
+              font-size: 12px;
+          }
+          header input + label{
+              position: fixed;
+              top: 20px;
+              right: 40px;
+              height: 20px;
+              width: 50px;
+              z-index: 8;
+          
+          }
+          header input + label span{
+              position: absolute;
+              width: 100%;
+              height: 3px;
+              top: 50%;
+              margin-top: -1px;
+              left: 0;
+              display: block;
+              background-color: white;
+              transition: .5;
+               left: -370px;
+          }
+          header input + label span:first-child{
+              top:10px
+          }
+          header input + label span:nth-child(2n){
+              background-color: #ffffff;
+              top:40px;
+          }
+          
+          header input + label span:last-child{
+              top:25px;
+             
+          }
+          header label:hover{
+              cursor:pointer
+          }
+          header input:checked + label span{
+              opacity: 0;
+              top:50%
+          }
+          header input:checked + label span:first-child{
+              opacity: 1;
+              transform: rotate(-450deg);
+          }
+          header input:checked + label span:last-child{
+              opacity: 1;
+              transform: rotate(-450deg);
+              
+          }
+          header input ~nav{
+              background-color: black;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 480px;
+              height: 100px;
+              z-index: 6;
+              transition: .5s;
+              transition-delay: .5s;
+              overflow: hidden;
+          }
+          header input ~nav > ul{
+              text-align:center ;
+              list-style-type: none;
+              position: absolute;
+              top: 100px;
+              left: -15%;
+              display: block;
+              width: 200px;
+              
+          }
+          header input ~ nav >ul > li{
+              opacity: 0;
+              transition: .5s;
+              transition-delay: 0s;
+          }
+          header input ~ nav > ul >li > a{
+              text-decoration: none;
+              text-transform: uppercase;
+              color: white;
+              display: block;
+              padding: 30px;
+          }
+          .on nav ul li a{
+              text-decoration: none;
+              color: white;
+          }
+          header input ~ nav > ul >li > a:hover{
+              border-bottom: 1px solid white;
+          }
+          
+          header input:checked ~ nav {
+              height: 100%;
+              transition-delay: 0s;
+          }
+          header input:checked ~ nav > ul >li{
+              opacity: 1;
+              transition-delay: .5s;
+          }
+          
+           .logo{
+              position:fixed ;
+              top: 30px;
+              left: -25px;
+              z-index: 7;
+          } 
+         .on{
+              display : block;
+          }
+          .main img{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 240px;
+            top: -10px;
+          }
+          .kor{
+            display: flex;
+            justify-content: space-around;
+            width: 150px;
+            position: absolute;
+            left: 350px;
+          }
+          .kor img{
+            width: 35px;
+            height: 35px;
+          }
+           .button button{
+             width: 200px;
+             position: relative;
+             left: 150px;
+           }
+
+
+
+           footer{
+             position: relative;
+             top: px;
+           }
+
+
+           .foot img{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 350px;
+            left: 200px;
+          }
+          .rejim{
+            position: absolute;
+            top: px;
+            left: 60px;
+          }
+          .adr{
+            position: absolute;
+            top: 100px;
+            left: 60px;
+          }
+          .tele{
+            position: absolute;
+            top: 200px;
+            left: 60px;
+          }
+          .vector{
+            position: relative;
+            top: 100px;
+            left: 50px;
+          }
+
+  }
+  @media only screen and (min-device-width : 480px) and (max-device-width : 768px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .nav{
+      display: none;
+    }
+   
+    .content{
+     width: 768px;
+     height: 6900px;
+   }
+   .menu{
+     overflow-x: auto;
+     margin-top: -50px;
+ 
+       }
+       .food{
+         flex-direction: column;
+         margin-top: px;
+         margin-left: 100px;
+         width: 600px;
+         margin-top: -10px;
+        }
+        .foodImg img{
+          width: 500px;
+        }
+        .foodImg h3{
+          font-size: 35px;
+        }
+        .foodImg p{
+          font-size: 20px;
+          width: 450px;
+          margin-top: 10px;
+        }
+        .foodImg a {
+          font-size: 30px;
+          
+        }
+        .som{
+          margin-top: 10px;
+         
+        }
+        .som a button{
+          width: 180px;
+          height: 50px;
+         font-size: 25px;
+        }
+        .foodImg{
+          margin-top: 100px;
+        }
+ 
+        header{
+         width: 768px;
+         height: 110px;
+       }
+             header h1 > span{
+               text-transform: none;
+               opacity: .5;
+               font-weight: 300;
+               font-size: 12px;
+           }
+           header input + label{
+               position: fixed;
+               top: 20px;
+               right: 40px;
+               height: 20px;
+               width: 50px;
+               z-index: 8;
+           
+           }
+           header input + label span{
+               position: absolute;
+               width: 100%;
+               height: 3px;
+               top: 50%;
+               margin-top: -1px;
+               left: 0;
+               display: block;
+               background-color: white;
+               transition: .5;
+                left: -650px;
+           }
+           header input + label span:first-child{
+               top:10px
+           }
+           header input + label span:nth-child(2n){
+               background-color: #ffffff;
+               top:40px;
+           }
+           
+           header input + label span:last-child{
+               top:25px;
+              
+           }
+           header label:hover{
+               cursor:pointer
+           }
+           header input:checked + label span{
+               opacity: 0;
+               top:50%
+           }
+           header input:checked + label span:first-child{
+               opacity: 1;
+               transform: rotate(-450deg);
+           }
+           header input:checked + label span:last-child{
+               opacity: 1;
+               transform: rotate(-450deg);
+               
+           }
+           header input ~nav{
+               background-color: black;
+               position: fixed;
+               top: 0;
+               left: 0;
+               width: 768px;
+               height: 110px;
+               z-index: 6;
+               transition: .5s;
+               transition-delay: .5s;
+               overflow: hidden;
+           }
+           header input ~nav > ul{
+               text-align:center ;
+               list-style-type: none;
+               position: absolute;
+               top: 100px;
+               left: -15%;
+               display: block;
+               width: 600px;
+               
+           }
+           header input ~ nav >ul > li{
+               opacity: 0;
+               transition: .5s;
+               transition-delay: 0s;
+           }
+           header input ~ nav > ul >li > a{
+               text-decoration: none;
+               text-transform: uppercase;
+               color: white;
+               display: block;
+               padding: 30px;
+           }
+           .on nav ul li a{
+               text-decoration: none;
+               color: white;
+           }
+           header input ~ nav > ul >li > a:hover{
+               border-bottom: 1px solid white;
+           }
+           
+           header input:checked ~ nav {
+               height: 100%;
+               transition-delay: 0s;
+           }
+           header input:checked ~ nav > ul >li{
+               opacity: 1;
+               transition-delay: .5s;
+           }
+           
+            .logo{
+               position:fixed ;
+               top: 30px;
+               left: -25px;
+               z-index: 7;
+           } 
+          .on{
+               display : block;
+           }
+           .main img{
+             width: 70px;
+             height: 70px;
+             position: absolute;
+             left: 380px;
+             top: -10px;
+           }
+           .kor{
+             display: flex;
+             justify-content: space-around;
+             width: 200px;
+             position: absolute;
+             left: 550px;
+           }
+           .kor img{
+             width: 50px;
+             height: 50px;
+           }
+            .button button{
+              width: 350px;
+              position: relative;
+              left: 220px;
+              font-size: 30px;
+            }
+ 
+ 
+ 
+            footer{
+              position: relative;
+              top: px;
+            }
+ 
+ 
+            .foot img{
+             width: 150px;
+             height: 150px;
+             position: absolute;
+             top: 350px;
+             left: 340px;
+           }
+            footer h3{
+              font-size: 25px;
+            }
+            footer p{
+              font-size: 15px;
+            }
+           .rejim{
+             position: absolute;
+             top: px;
+             left: 60px;
+           }
+           .adr{
+             position: absolute;
+             top: 130px;
+             left: 60px;
+           }
+           .tele{
+             position: absolute;
+             top: 210px;
+             left: 60px;
+           }
+           .vector{
+             position: relative;
+             top: 60px;
+             left: 80px;
+           }
+          .vector a:first-child img:first-child{
+            width: 60px;
+            height: 80px;
+          }
+          .vector a:nth-child(2n)  img{
+            width: 50px;
+            height: 70px;
+          }
+          .vector a:last-child  img{
+            height: 70px;
+          }
+ 
+
+
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .nav{
+      display: none;
+    }
+   
+    .content{
+     width: 1024px;
+     height: 8300px;
+   }
+   .menu{
+     overflow-x: auto;
+     margin-top: -50px;
+ 
+       }
+       .food{
+         flex-direction: column;
+         margin-top: px;
+         margin-left: 220px;
+         width: 600px;
+         margin-top: -10px;
+        }
+        .foodImg img{
+          width: 600px;
+        }
+        .foodImg h3{
+          font-size: 45px;
+        }
+        .foodImg p{
+          font-size: 27px;
+          width: 700px;
+          margin-top: 10px;
+        }
+        .foodImg a {
+          font-size: 40px;
+          
+        }
+        .som{
+          margin-top: 10px;
+        }
+        .som a button{
+          width: 220px;
+          height: 60px;
+         font-size: 34px;
+        }
+        .foodImg{
+          margin-top: 100px;
+        }
+ 
+        header{
+         width: 1024px;
+         height: 120px;
+       }
+             header h1 > span{
+               text-transform: none;
+               opacity: .5;
+               font-weight: 300;
+               font-size: 12px;
+           }
+           header input + label{
+               position: fixed;
+               top: 20px;
+               right: 40px;
+               height: 20px;
+               width: 65px;
+               z-index: 8;
+           
+           }
+           header input + label span{
+               position: absolute;
+               width: 100%;
+               height: 5px;
+               top: 50%;
+               margin-top: -1px;
+               left: 0;
+               display: block;
+               background-color: white;
+               transition: .5;
+                left: -860px;
+           }
+           header input + label span:first-child{
+               top:10px
+           }
+           header input + label span:nth-child(2n){
+               background-color: #ffffff;
+               top:50px;
+           }
+           
+           header input + label span:last-child{
+               top:30px;
+              
+           }
+           header label:hover{
+               cursor:pointer
+           }
+           header input:checked + label span{
+               opacity: 0;
+               top:50%
+           }
+           header input:checked + label span:first-child{
+               opacity: 1;
+               transform: rotate(-450deg);
+           }
+           header input:checked + label span:last-child{
+               opacity: 1;
+               transform: rotate(-450deg);
+               
+           }
+           header input ~nav{
+               background-color: black;
+               position: fixed;
+               top: 0;
+               left: 0;
+               width: 1024px;
+               height: 120px;
+               z-index: 6;
+               transition: .5s;
+               transition-delay: .5s;
+               overflow: hidden;
+           }
+           header input ~nav > ul{
+               text-align:center ;
+               list-style-type: none;
+               position: absolute;
+               top: 100px;
+               left: -15%;
+               display: block;
+               width: 950px;
+               
+           }
+           header input ~ nav >ul > li{
+               opacity: 0;
+               transition: .5s;
+               transition-delay: 0s;
+           }
+           header input ~ nav > ul >li > a{
+               text-decoration: none;
+               text-transform: uppercase;
+               color: white;
+               display: block;
+               padding: 30px;
+           }
+           .on nav ul li a{
+               text-decoration: none;
+               color: white;
+           }
+           header input ~ nav > ul >li > a:hover{
+               border-bottom: 1px solid white;
+           }
+           
+           header input:checked ~ nav {
+               height: 100%;
+               transition-delay: 0s;
+           }
+           header input:checked ~ nav > ul >li{
+               opacity: 1;
+               transition-delay: .5s;
+           }
+           
+            .logo{
+               position:fixed ;
+               top: 30px;
+               left: -25px;
+               z-index: 7;
+           } 
+          .on{
+               display : block;
+           }
+           .main img{
+             width: 100px;
+             height: 90px;
+             position: absolute;
+             left: 500px;
+             top: -10px;
+           }
+           .kor{
+             display: flex;
+             justify-content: space-around;
+             width: 200px;
+             position: absolute;
+             left: 750px;
+           }
+           .kor img{
+             width: 50px;
+             height: 50px;
+           }
+            .button button{
+              width: 450px;
+              height: 70px;
+              position: relative;
+              left: 300px;
+              font-size: 30px;
+            }
+ 
+ 
+ 
+            footer{
+              position: relative;
+              top: px;
+            }
+ 
+ 
+            .foot img{
+             width: 200px;
+             height: 200px;
+             position: absolute;
+             top: 430px;
+             left: 450px;
+           }
+            footer h3{
+              font-size: 35px;
+            }
+            footer p{
+              font-size: 20px;
+            }
+           .rejim{
+             position: absolute;
+             top: px;
+             left:100px;
+           }
+           .adr{
+             position: absolute;
+             top: 135px;
+             left: 100px;
+           }
+           .tele{
+             position: absolute;
+             top: 250px;
+             left: 100px;
+           }
+           .vector{
+             position: relative;
+             top: 60px;
+             left: 80px;
+           }
+          .vector a:first-child img:first-child{
+            width: 70px;
+            height: 80px;
+          }
+          .vector a:nth-child(2n)  img{
+            width: 60px;
+            height: 70px;
+          }
+          .vector a:last-child  img{
+            height: 70px;
+          }
+ 
+
+
+  }
